@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+td {
+  border: 3px solid brown;
+  width: 150px;
+  height: 150px;
+}
+
+.face {
+  transition: all 1s ease-in-out;
+  opacity: 1;
+}
+
+.back {
+  transition: all 1s ease-in-out;
+  opacity: 0;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  background-color: brown;
+  color: aliceblue;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.gameover{
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(165, 42, 42, 0.69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 25px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory game</title>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr><td><img onclick="play('cellule1')" id="cellule1"></td><td><img onclick="play('cellule2')" id="cellule2"></td><td><img onclick="play('cellule3')" id="cellule3"></td><td><img onclick="play('cellule4')" id="cellule4"></td></tr>
+            <tr><td><img onclick="play('cellule5')" id="cellule5"></td><td><img onclick="play('cellule6')" id="cellule6"></td><td><img onclick="play('cellule7')" id="cellule7"></td><td><img onclick="play('cellule8')" id="cellule8"></td></tr>
+            <tr><td><img onclick="play('cellule9')" id="cellule9"></td><td><img onclick="play('cellule10')" id="cellule10"></td><td><img onclick="play('cellule11')" id="cellule11"></td><td><img onclick="play('cellule12')" id="cellule12"></td></tr>
+            <tr><td><img onclick="play('cellule13')" id="cellule13"></td><td><img onclick="play('cellule14')" id="cellule14"></td><td><img onclick="play('cellule15')" id="cellule15"></td><td><img onclick="play('cellule16')" id="cellule16"></td></tr>
+        </table>
+        <button style="z-index: 2; cursor: pointer;" onclick="start()">Restart</button>
+    </div>
+    <div class="gameover" id="gameover"><h1>You won!</h1></div>
+    <script src="script.js"></script>
+</body>
+</html>
